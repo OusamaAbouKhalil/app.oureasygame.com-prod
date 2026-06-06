@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="OurEasyGame — Learn faster with on‑demand tutoring, homework help, exams assistance, projects, and classes. Chat with tutors 24/7 and get matched instantly.">
+  <meta name="keywords" content="OurEasyGame, tutoring, homework help, exam help, online classes, projects, thesis, study help, learn, education">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id" content="107453574918-km5t8d3vmhksc24kdc58qrmq8700tec8.apps.googleusercontent.com">
+  <meta name="application-name" content="OurEasyGame">
+  <meta name="theme-color" content="#081157">
+  <link rel="canonical" href="https://app.oureasygame.com/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta http-equiv="Content-Language" content="en">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OurEasyGame">
+  <meta property="og:url" content="https://oureasygame.com/">
+  <meta property="og:title" content="OurEasyGame — On‑Demand Tutoring & Classes">
+  <meta property="og:description" content="Get instant help from expert tutors for homework, exams, projects and classes. 24/7 chat and secure payments.">
+  <meta property="og:image" content="/icons/Icon-512.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OurEasyGame — On‑Demand Tutoring & Classes">
+  <meta name="twitter:description" content="Get instant help from expert tutors for homework, exams, projects and classes. 24/7 chat and secure payments.">
+  <meta name="twitter:image" content="/icons/Icon-512.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="OurEasyGame">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/Icon-192.png">
+  
+
+  <!-- Favicon (favicon.png is copied to build/web on flutter build web) -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/Icon-512.png">
+
+  <title>OurEasyGame</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/flutter_service_worker.js');
+        });
+      }
+    </script>
+    <!--
+      MeetHour plugin on Web expects a global `MeetHourExternalAPI`.
+      When the real MeetHour external script is not loaded (or not ready yet),
+      the plugin crashes with:
+      "ReferenceError: MeetHourExternalAPI is not defined".
+
+      Provide a minimal stub so the app can boot.
+      (Full MeetHour video functionality still requires MeetHour's real script.)
+    -->
+    <script>
+      (function () {
+        if (typeof window.MeetHourExternalAPI === 'undefined') {
+          // Constructor-like stub to keep plugin registration from crashing.
+          window.MeetHourExternalAPI = function MeetHourExternalAPIStub() {};
+          window.MeetHourExternalAPI.prototype.init = function () {};
+        }
+      })();
+    </script>
+    <!--
+      MeetHour web plugin injects its own scripts.
+      Keeping an additional manual include here causes duplicate execution and crashes with:
+      "Identifier 'MeetHourAPI' has already been declared".
+    -->
+    <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

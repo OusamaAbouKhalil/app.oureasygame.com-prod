@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F59E0B" />
+    <title>Checkout cancelled — OEG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #090a2d;
+        --muted: #6f7284;
+        --card: #ffffff;
+        --amber: #f59e0b;
+        --amber-soft: rgba(245, 158, 11, 0.15);
+        --shadow: 0 24px 64px rgba(9, 10, 45, 0.12), 0 4px 16px rgba(9, 10, 45, 0.06);
+        --brand: #e91e63;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+        background: radial-gradient(1000px 520px at 70% -10%, rgba(245, 158, 11, 0.14), transparent 55%),
+                    linear-gradient(180deg, #fffbf5 0%, #f7f7fa 100%);
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+      }
+      .wrap { width: 100%; max-width: 440px; animation: rise 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(16px) scale(0.98); }
+        to { opacity: 1; transform: translateY(0) scale(1); }
+      }
+      .card {
+        background: var(--card);
+        border-radius: 24px;
+        padding: 40px 32px 36px;
+        box-shadow: var(--shadow);
+        border: 1px solid rgba(245, 158, 11, 0.2);
+        text-align: center;
+      }
+      .icon-ring {
+        width: 88px;
+        height: 88px;
+        margin: 0 auto 24px;
+        border-radius: 50%;
+        background: var(--amber-soft);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) 0.12s both;
+      }
+      @keyframes pop {
+        from { transform: scale(0.6); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }
+      .icon-ring svg { width: 44px; height: 44px; }
+      h1 {
+        margin: 0 0 12px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #b45309;
+        line-height: 1.2;
+      }
+      .lead { margin: 0 0 20px; font-size: 1rem; line-height: 1.55; color: var(--muted); }
+      .req {
+        font-size: 0.8125rem;
+        color: var(--muted);
+        margin-bottom: 28px;
+        padding: 12px 14px;
+        background: #fafafa;
+        border-radius: 12px;
+        text-align: left;
+        word-break: break-all;
+      }
+      .req strong { color: var(--ink); font-weight: 600; }
+      .status {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 0.875rem;
+        color: var(--muted);
+        margin-bottom: 8px;
+      }
+      .dots { display: inline-flex; gap: 4px; }
+      .dots span {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--amber);
+        opacity: 0.45;
+        animation: blink 1.2s ease-in-out infinite;
+      }
+      .dots span:nth-child(2) { animation-delay: 0.2s; }
+      .dots span:nth-child(3) { animation-delay: 0.4s; }
+      @keyframes blink {
+        0%, 80%, 100% { opacity: 0.35; }
+        40% { opacity: 1; }
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 14px 20px;
+        border-radius: 14px;
+        font-family: inherit;
+        font-size: 0.9375rem;
+        font-weight: 600;
+        color: #fff;
+        background: linear-gradient(135deg, var(--brand) 0%, #c2185b 100%);
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 8px 24px rgba(233, 30, 99, 0.35);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+      }
+      .btn:hover { transform: translateY(-1px); box-shadow: 0 12px 28px rgba(233, 30, 99, 0.4); }
+      footer { margin-top: 20px; font-size: 0.75rem; color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <div class="icon-ring" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 8v8M8 12h8" stroke="var(--amber)" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h1>Checkout cancelled</h1>
+        <p class="lead">You closed Stripe checkout before paying. Nothing was charged—open your invoice anytime to try again.</p>
+        <p class="req" id="reqLine" style="display: none;"><strong>Request</strong> <span id="req"></span></p>
+        <div class="status">
+          <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>Back to the app</span>
+        </div>
+        <button type="button" class="btn" onclick="returnToApp()">Return to invoice</button>
+        <footer>Our Easy Game — secure checkout</footer>
+      </div>
+    </div>
+    <script>
+      function getParam(name) {
+        try { return new URLSearchParams(window.location.search).get(name) || ""; } catch (e) { return ""; }
+      }
+      const requestId = getParam("requestId") || getParam("request_id") || "";
+      if (requestId) {
+        document.getElementById("req").textContent = requestId;
+        document.getElementById("reqLine").style.display = "block";
+      }
+
+      function notifyOpener() {
+        try {
+          if (window.opener && !window.opener.closed) {
+            window.opener.postMessage({
+              type: "OEG_PAYMENT_RESULT",
+              status: "cancelled",
+              requestId: requestId,
+              at: new Date().toISOString()
+            }, "*");
+            return true;
+          }
+        } catch (e) {}
+        return false;
+      }
+
+      function returnToApp() {
+        const notified = notifyOpener();
+        if (notified) {
+          window.close();
+          return;
+        }
+        const base = window.location.origin;
+        const q = "id=" + encodeURIComponent(requestId) + "&payment_status=cancelled&requestId=" + encodeURIComponent(requestId);
+        window.location.href = base + "/#/request-payment-page?" + q;
+      }
+
+      setTimeout(returnToApp, 900);
+    </script>
+  </body>
+</html>

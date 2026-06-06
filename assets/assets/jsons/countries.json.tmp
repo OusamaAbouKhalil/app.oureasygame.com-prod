@@ -1,0 +1,1554 @@
+[
+  {
+    "label": "Afghanistan",
+    "value": "Afghanistan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/af.svg",
+    "countryCode": "+93",
+    "iso": "AF",
+    "capital": "Kabul"
+  },
+  {
+    "label": "Albania",
+    "value": "Albania",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/al.svg",
+    "countryCode": "+355",
+    "iso": "AL",
+    "capital": "Tirana"
+  },
+  {
+    "label": "Algeria",
+    "value": "Algeria",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/dz.svg",
+    "countryCode": "+213",
+    "iso": "DZ",
+    "capital": "Algiers"
+  },
+  {
+    "label": "Andorra",
+    "value": "Andorra",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ad.svg",
+    "countryCode": "+376",
+    "iso": "AD",
+    "capital": "Andorra la Vella"
+  },
+  {
+    "label": "Angola",
+    "value": "Angola",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ao.svg",
+    "countryCode": "+244",
+    "iso": "AO",
+    "capital": "Luanda"
+  },
+  {
+    "label": "Antigua and Barbuda",
+    "value": "Antigua and Barbuda",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ag.svg",
+    "countryCode": "+1-268",
+    "iso": "AG",
+    "capital": "Saint John's"
+  },
+  {
+    "label": "Argentina",
+    "value": "Argentina",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ar.svg",
+    "countryCode": "+54",
+    "iso": "AR",
+    "capital": "Buenos Aires"
+  },
+  {
+    "label": "Armenia",
+    "value": "Armenia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/am.svg",
+    "countryCode": "+374",
+    "iso": "AM",
+    "capital": "Yerevan"
+  },
+  {
+    "label": "Australia",
+    "value": "Australia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/au.svg",
+    "countryCode": "+61",
+    "iso": "AU",
+    "capital": "Canberra"
+  },
+  {
+    "label": "Austria",
+    "value": "Austria",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/at.svg",
+    "countryCode": "+43",
+    "iso": "AT",
+    "capital": "Vienna"
+  },
+  {
+    "label": "Azerbaijan",
+    "value": "Azerbaijan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/az.svg",
+    "countryCode": "+994",
+    "iso": "AZ",
+    "capital": "Baku"
+  },
+  {
+    "label": "Bahamas",
+    "value": "Bahamas",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bs.svg",
+    "countryCode": "+1-242",
+    "iso": "BS",
+    "capital": "Nassau"
+  },
+  {
+    "label": "Bahrain",
+    "value": "Bahrain",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bh.svg",
+    "countryCode": "+973",
+    "iso": "BH",
+    "capital": "Manama"
+  },
+  {
+    "label": "Bangladesh",
+    "value": "Bangladesh",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bd.svg",
+    "countryCode": "+880",
+    "iso": "BD",
+    "capital": "Dhaka"
+  },
+  {
+    "label": "Barbados",
+    "value": "Barbados",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bb.svg",
+    "countryCode": "+1-246",
+    "iso": "BB",
+    "capital": "Bridgetown"
+  },
+  {
+    "label": "Belarus",
+    "value": "Belarus",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/by.svg",
+    "countryCode": "+375",
+    "iso": "BY",
+    "capital": "Minsk"
+  },
+  {
+    "label": "Belgium",
+    "value": "Belgium",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/be.svg",
+    "countryCode": "+32",
+    "iso": "BE",
+    "capital": "Brussels"
+  },
+  {
+    "label": "Belize",
+    "value": "Belize",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bz.svg",
+    "countryCode": "+501",
+    "iso": "BZ",
+    "capital": "Belmopan"
+  },
+  {
+    "label": "Benin",
+    "value": "Benin",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bj.svg",
+    "countryCode": "+229",
+    "iso": "BJ",
+    "capital": "Porto-Novo"
+  },
+  {
+    "label": "Bhutan",
+    "value": "Bhutan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bt.svg",
+    "countryCode": "+975",
+    "iso": "BT",
+    "capital": "Thimphu"
+  },
+  {
+    "label": "Bolivia",
+    "value": "Bolivia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bo.svg",
+    "countryCode": "+591",
+    "iso": "BO",
+    "capital": "Sucre"
+  },
+  {
+    "label": "Bosnia and Herzegovina",
+    "value": "Bosnia and Herzegovina",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ba.svg",
+    "countryCode": "+387",
+    "iso": "BA",
+    "capital": "Sarajevo"
+  },
+  {
+    "label": "Botswana",
+    "value": "Botswana",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bw.svg",
+    "countryCode": "+267",
+    "iso": "BW",
+    "capital": "Gaborone"
+  },
+  {
+    "label": "Brazil",
+    "value": "Brazil",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/br.svg",
+    "countryCode": "+55",
+    "iso": "BR",
+    "capital": "Brasília"
+  },
+  {
+    "label": "Brunei",
+    "value": "Brunei",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bn.svg",
+    "countryCode": "+673",
+    "iso": "BN",
+    "capital": "Bandar Seri Begawan"
+  },
+  {
+    "label": "Bulgaria",
+    "value": "Bulgaria",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bg.svg",
+    "countryCode": "+359",
+    "iso": "BG",
+    "capital": "Sofia"
+  },
+  {
+    "label": "Burkina Faso",
+    "value": "Burkina Faso",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bf.svg",
+    "countryCode": "+226",
+    "iso": "BF",
+    "capital": "Ouagadougou"
+  },
+  {
+    "label": "Burundi",
+    "value": "Burundi",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/bi.svg",
+    "countryCode": "+257",
+    "iso": "BI",
+    "capital": "Bujumbura"
+  },
+  {
+    "label": "Cabo Verde",
+    "value": "Cabo Verde",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cv.svg",
+    "countryCode": "+238",
+    "iso": "CV",
+    "capital": "Praia"
+  },
+  {
+    "label": "Cambodia",
+    "value": "Cambodia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kh.svg",
+    "countryCode": "+855",
+    "iso": "KH",
+    "capital": "Phnom Penh"
+  },
+  {
+    "label": "Cameroon",
+    "value": "Cameroon",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cm.svg",
+    "countryCode": "+237",
+    "iso": "CM",
+    "capital": "Yaoundé"
+  },
+  {
+    "label": "Canada",
+    "value": "Canada",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ca.svg",
+    "countryCode": "+1",
+    "iso": "CA",
+    "capital": "Ottawa"
+  },
+  {
+    "label": "Central African Republic",
+    "value": "Central African Republic",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cf.svg",
+    "countryCode": "+236",
+    "iso": "CF",
+    "capital": "Bangui"
+  },
+  {
+    "label": "Chad",
+    "value": "Chad",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/td.svg",
+    "countryCode": "+235",
+    "iso": "TD",
+    "capital": "N'Djamena"
+  },
+  {
+    "label": "Chile",
+    "value": "Chile",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cl.svg",
+    "countryCode": "+56",
+    "iso": "CL",
+    "capital": "Santiago"
+  },
+  {
+    "label": "China",
+    "value": "China",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cn.svg",
+    "countryCode": "+86",
+    "iso": "CN",
+    "capital": "Beijing"
+  },
+  {
+    "label": "Colombia",
+    "value": "Colombia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/co.svg",
+    "countryCode": "+57",
+    "iso": "CO",
+    "capital": "Bogotá"
+  },
+  {
+    "label": "Comoros",
+    "value": "Comoros",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/km.svg",
+    "countryCode": "+269",
+    "iso": "KM",
+    "capital": "Moroni"
+  },
+  {
+    "label": "Congo",
+    "value": "Congo",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cg.svg",
+    "countryCode": "+242",
+    "iso": "CG",
+    "capital": "Brazzaville"
+  },
+  {
+    "label": "Costa Rica",
+    "value": "Costa Rica",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cr.svg",
+    "countryCode": "+506",
+    "iso": "CR",
+    "capital": "San José"
+  },
+  {
+    "label": "Croatia",
+    "value": "Croatia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/hr.svg",
+    "countryCode": "+385",
+    "iso": "HR",
+    "capital": "Zagreb"
+  },
+  {
+    "label": "Cuba",
+    "value": "Cuba",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cu.svg",
+    "countryCode": "+53",
+    "iso": "CU",
+    "capital": "Havana"
+  },
+  {
+    "label": "Cyprus",
+    "value": "Cyprus",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cy.svg",
+    "countryCode": "+357",
+    "iso": "CY",
+    "capital": "Nicosia"
+  },
+  {
+    "label": "Czech Republic",
+    "value": "Czech Republic",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cz.svg",
+    "countryCode": "+420",
+    "iso": "CZ",
+    "capital": "Prague"
+  },
+  {
+    "label": "Democratic Republic of the Congo",
+    "value": "Democratic Republic of the Congo",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cd.svg",
+    "countryCode": "+243",
+    "iso": "CD",
+    "capital": "Kinshasa"
+  },
+  {
+    "label": "Denmark",
+    "value": "Denmark",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/dk.svg",
+    "countryCode": "+45",
+    "iso": "DK",
+    "capital": "Copenhagen"
+  },
+  {
+    "label": "Djibouti",
+    "value": "Djibouti",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/dj.svg",
+    "countryCode": "+253",
+    "iso": "DJ",
+    "capital": "Djibouti"
+  },
+  {
+    "label": "Dominica",
+    "value": "Dominica",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/dm.svg",
+    "countryCode": "+1-767",
+    "iso": "DM",
+    "capital": "Roseau"
+  },
+  {
+    "label": "Dominican Republic",
+    "value": "Dominican Republic",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/do.svg",
+    "countryCode": "+1-809",
+    "iso": "DO",
+    "capital": "Santo Domingo"
+  },
+  {
+    "label": "Ecuador",
+    "value": "Ecuador",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ec.svg",
+    "countryCode": "+593",
+    "iso": "EC",
+    "capital": "Quito"
+  },
+  {
+    "label": "Egypt",
+    "value": "Egypt",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/eg.svg",
+    "countryCode": "+20",
+    "iso": "EG",
+    "capital": "Cairo"
+  },
+  {
+    "label": "El Salvador",
+    "value": "El Salvador",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sv.svg",
+    "countryCode": "+503",
+    "iso": "SV",
+    "capital": "San Salvador"
+  },
+  {
+    "label": "Equatorial Guinea",
+    "value": "Equatorial Guinea",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gq.svg",
+    "countryCode": "+240",
+    "iso": "GQ",
+    "capital": "Malabo"
+  },
+  {
+    "label": "Eritrea",
+    "value": "Eritrea",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/er.svg",
+    "countryCode": "+291",
+    "iso": "ER",
+    "capital": "Asmara"
+  },
+  {
+    "label": "Estonia",
+    "value": "Estonia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ee.svg",
+    "countryCode": "+372",
+    "iso": "EE",
+    "capital": "Tallinn"
+  },
+  {
+    "label": "Eswatini",
+    "value": "Eswatini",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sz.svg",
+    "countryCode": "+268",
+    "iso": "SZ",
+    "capital": "Lobamba"
+  },
+  {
+    "label": "Ethiopia",
+    "value": "Ethiopia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/et.svg",
+    "countryCode": "+251",
+    "iso": "ET",
+    "capital": "Addis Ababa"
+  },
+  {
+    "label": "Fiji",
+    "value": "Fiji",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/fj.svg",
+    "countryCode": "+679",
+    "iso": "FJ",
+    "capital": "Suva"
+  },
+  {
+    "label": "Finland",
+    "value": "Finland",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/fi.svg",
+    "countryCode": "+358",
+    "iso": "FI",
+    "capital": "Helsinki"
+  },
+  {
+    "label": "France",
+    "value": "France",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/fr.svg",
+    "countryCode": "+33",
+    "iso": "FR",
+    "capital": "Paris"
+  },
+  {
+    "label": "Gabon",
+    "value": "Gabon",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ga.svg",
+    "countryCode": "+241",
+    "iso": "GA",
+    "capital": "Libreville"
+  },
+  {
+    "label": "Gambia",
+    "value": "Gambia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gm.svg",
+    "countryCode": "+220",
+    "iso": "GM",
+    "capital": "Banjul"
+  },
+  {
+    "label": "Georgia",
+    "value": "Georgia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ge.svg",
+    "countryCode": "+995",
+    "iso": "GE",
+    "capital": "Tbilisi"
+  },
+  {
+    "label": "Germany",
+    "value": "Germany",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/de.svg",
+    "countryCode": "+49",
+    "iso": "DE",
+    "capital": "Berlin"
+  },
+  {
+    "label": "Ghana",
+    "value": "Ghana",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gh.svg",
+    "countryCode": "+233",
+    "iso": "GH",
+    "capital": "Accra"
+  },
+  {
+    "label": "Greece",
+    "value": "Greece",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gr.svg",
+    "countryCode": "+30",
+    "iso": "GR",
+    "capital": "Athens"
+  },
+  {
+    "label": "Grenada",
+    "value": "Grenada",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gd.svg",
+    "countryCode": "+1-473",
+    "iso": "GD",
+    "capital": "St. George's"
+  },
+  {
+    "label": "Guatemala",
+    "value": "Guatemala",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gt.svg",
+    "countryCode": "+502",
+    "iso": "GT",
+    "capital": "Guatemala City"
+  },
+  {
+    "label": "Guinea",
+    "value": "Guinea",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gn.svg",
+    "countryCode": "+224",
+    "iso": "GN",
+    "capital": "Conakry"
+  },
+  {
+    "label": "Guinea-Bissau",
+    "value": "Guinea-Bissau",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gw.svg",
+    "countryCode": "+245",
+    "iso": "GW",
+    "capital": "Bissau"
+  },
+  {
+    "label": "Guyana",
+    "value": "Guyana",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gy.svg",
+    "countryCode": "+592",
+    "iso": "GY",
+    "capital": "Georgetown"
+  },
+  {
+    "label": "Haiti",
+    "value": "Haiti",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ht.svg",
+    "countryCode": "+509",
+    "iso": "HT",
+    "capital": "Port-au-Prince"
+  },
+  {
+    "label": "Honduras",
+    "value": "Honduras",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/hn.svg",
+    "countryCode": "+504",
+    "iso": "HN",
+    "capital": "Tegucigalpa"
+  },
+  {
+    "label": "Hungary",
+    "value": "Hungary",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/hu.svg",
+    "countryCode": "+36",
+    "iso": "HU",
+    "capital": "Budapest"
+  },
+  {
+    "label": "Iceland",
+    "value": "Iceland",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/is.svg",
+    "countryCode": "+354",
+    "iso": "IS",
+    "capital": "Reykjavík"
+  },
+  {
+    "label": "India",
+    "value": "India",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/in.svg",
+    "countryCode": "+91",
+    "iso": "IN",
+    "capital": "New Delhi"
+  },
+  {
+    "label": "Indonesia",
+    "value": "Indonesia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/id.svg",
+    "countryCode": "+62",
+    "iso": "ID",
+    "capital": "Jakarta"
+  },
+  {
+    "label": "Iran",
+    "value": "Iran",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ir.svg",
+    "countryCode": "+98",
+    "iso": "IR",
+    "capital": "Tehran"
+  },
+  {
+    "label": "Iraq",
+    "value": "Iraq",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/iq.svg",
+    "countryCode": "+964",
+    "iso": "IQ",
+    "capital": "Baghdad"
+  },
+  {
+    "label": "Ireland",
+    "value": "Ireland",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ie.svg",
+    "countryCode": "+353",
+    "iso": "IE",
+    "capital": "Dublin"
+  },
+  {
+    "label": "Italy",
+    "value": "Italy",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/it.svg",
+    "countryCode": "+39",
+    "iso": "IT",
+    "capital": "Rome"
+  },
+  {
+    "label": "Ivory Coast",
+    "value": "Ivory Coast",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ci.svg",
+    "countryCode": "+225",
+    "iso": "CI",
+    "capital": "Yamoussoukro"
+  },
+  {
+    "label": "Jamaica",
+    "value": "Jamaica",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/jm.svg",
+    "countryCode": "+1-876",
+    "iso": "JM",
+    "capital": "Kingston"
+  },
+  {
+    "label": "Japan",
+    "value": "Japan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/jp.svg",
+    "countryCode": "+81",
+    "iso": "JP",
+    "capital": "Tokyo"
+  },
+  {
+    "label": "Jordan",
+    "value": "Jordan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/jo.svg",
+    "countryCode": "+962",
+    "iso": "JO",
+    "capital": "Amman"
+  },
+  {
+    "label": "Kazakhstan",
+    "value": "Kazakhstan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kz.svg",
+    "countryCode": "+7",
+    "iso": "KZ",
+    "capital": "Nursultan"
+  },
+  {
+    "label": "Kenya",
+    "value": "Kenya",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ke.svg",
+    "countryCode": "+254",
+    "iso": "KE",
+    "capital": "Nairobi"
+  },
+  {
+    "label": "Kiribati",
+    "value": "Kiribati",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ki.svg",
+    "countryCode": "+686",
+    "iso": "KI",
+    "capital": "South Tarawa"
+  },
+  {
+    "label": "Kuwait",
+    "value": "Kuwait",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kw.svg",
+    "countryCode": "+965",
+    "iso": "KW",
+    "capital": "Kuwait City"
+  },
+  {
+    "label": "Kyrgyzstan",
+    "value": "Kyrgyzstan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kg.svg",
+    "countryCode": "+996",
+    "iso": "KG",
+    "capital": "Bishkek"
+  },
+  {
+    "label": "Laos",
+    "value": "Laos",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/la.svg",
+    "countryCode": "+856",
+    "iso": "LA",
+    "capital": "Vientiane"
+  },
+  {
+    "label": "Latvia",
+    "value": "Latvia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lv.svg",
+    "countryCode": "+371",
+    "iso": "LV",
+    "capital": "Riga"
+  },
+  {
+    "label": "Lebanon",
+    "value": "Lebanon",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lb.svg",
+    "countryCode": "+961",
+    "iso": "LB",
+    "capital": "Beirut"
+  },
+  {
+    "label": "Lesotho",
+    "value": "Lesotho",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ls.svg",
+    "countryCode": "+266",
+    "iso": "LS",
+    "capital": "Maseru"
+  },
+  {
+    "label": "Liberia",
+    "value": "Liberia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lr.svg",
+    "countryCode": "+231",
+    "iso": "LR",
+    "capital": "Monrovia"
+  },
+  {
+    "label": "Libya",
+    "value": "Libya",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ly.svg",
+    "countryCode": "+218",
+    "iso": "LY",
+    "capital": "Tripoli"
+  },
+  {
+    "label": "Liechtenstein",
+    "value": "Liechtenstein",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/li.svg",
+    "countryCode": "+423",
+    "iso": "LI",
+    "capital": "Vaduz"
+  },
+  {
+    "label": "Lithuania",
+    "value": "Lithuania",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lt.svg",
+    "countryCode": "+370",
+    "iso": "LT",
+    "capital": "Vilnius"
+  },
+  {
+    "label": "Luxembourg",
+    "value": "Luxembourg",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lu.svg",
+    "countryCode": "+352",
+    "iso": "LU",
+    "capital": "Luxembourg"
+  },
+  {
+    "label": "Madagascar",
+    "value": "Madagascar",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mg.svg",
+    "countryCode": "+261",
+    "iso": "MG",
+    "capital": "Antananarivo"
+  },
+  {
+    "label": "Malawi",
+    "value": "Malawi",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mw.svg",
+    "countryCode": "+265",
+    "iso": "MW",
+    "capital": "Lilongwe"
+  },
+  {
+    "label": "Malaysia",
+    "value": "Malaysia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/my.svg",
+    "countryCode": "+60",
+    "iso": "MY",
+    "capital": "Kuala Lumpur"
+  },
+  {
+    "label": "Maldives",
+    "value": "Maldives",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mv.svg",
+    "countryCode": "+960",
+    "iso": "MV",
+    "capital": "Malé"
+  },
+  {
+    "label": "Mali",
+    "value": "Mali",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ml.svg",
+    "countryCode": "+223",
+    "iso": "ML",
+    "capital": "Bamako"
+  },
+  {
+    "label": "Malta",
+    "value": "Malta",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mt.svg",
+    "countryCode": "+356",
+    "iso": "MT",
+    "capital": "Valletta"
+  },
+  {
+    "label": "Marshall Islands",
+    "value": "Marshall Islands",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mh.svg",
+    "countryCode": "+692",
+    "iso": "MH",
+    "capital": "Majuro"
+  },
+  {
+    "label": "Mauritania",
+    "value": "Mauritania",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mr.svg",
+    "countryCode": "+222",
+    "iso": "MR",
+    "capital": "Nouakchott"
+  },
+  {
+    "label": "Mauritius",
+    "value": "Mauritius",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mu.svg",
+    "countryCode": "+230",
+    "iso": "MU",
+    "capital": "Port Louis"
+  },
+  {
+    "label": "Mexico",
+    "value": "Mexico",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mx.svg",
+    "countryCode": "+52",
+    "iso": "MX",
+    "capital": "Mexico City"
+  },
+  {
+    "label": "Micronesia",
+    "value": "Micronesia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/fm.svg",
+    "countryCode": "+691",
+    "iso": "FM",
+    "capital": "Palikir"
+  },
+  {
+    "label": "Moldova",
+    "value": "Moldova",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/md.svg",
+    "countryCode": "+373",
+    "iso": "MD",
+    "capital": "Chișinău"
+  },
+  {
+    "label": "Monaco",
+    "value": "Monaco",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mc.svg",
+    "countryCode": "+377",
+    "iso": "MC",
+    "capital": "Monaco"
+  },
+  {
+    "label": "Mongolia",
+    "value": "Mongolia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mn.svg",
+    "countryCode": "+976",
+    "iso": "MN",
+    "capital": "Ulan Bator"
+  },
+  {
+    "label": "Montenegro",
+    "value": "Montenegro",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/me.svg",
+    "countryCode": "+382",
+    "iso": "ME",
+    "capital": "Podgorica"
+  },
+  {
+    "label": "Morocco",
+    "value": "Morocco",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ma.svg",
+    "countryCode": "+212",
+    "iso": "MA",
+    "capital": "Rabat"
+  },
+  {
+    "label": "Mozambique",
+    "value": "Mozambique",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mz.svg",
+    "countryCode": "+258",
+    "iso": "MZ",
+    "capital": "Maputo"
+  },
+  {
+    "label": "Myanmar",
+    "value": "Myanmar",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mm.svg",
+    "countryCode": "+95",
+    "iso": "MM",
+    "capital": "Naypyidaw"
+  },
+  {
+    "label": "Namibia",
+    "value": "Namibia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/na.svg",
+    "countryCode": "+264",
+    "iso": "NA",
+    "capital": "Windhoek"
+  },
+  {
+    "label": "Nauru",
+    "value": "Nauru",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/nr.svg",
+    "countryCode": "+674",
+    "iso": "NR",
+    "capital": "Yaren"
+  },
+  {
+    "label": "Nepal",
+    "value": "Nepal",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/np.svg",
+    "countryCode": "+977",
+    "iso": "NP",
+    "capital": "Kathmandu"
+  },
+  {
+    "label": "Netherlands",
+    "value": "Netherlands",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/nl.svg",
+    "countryCode": "+31",
+    "iso": "NL",
+    "capital": "Amsterdam"
+  },
+  {
+    "label": "New Zealand",
+    "value": "New Zealand",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/nz.svg",
+    "countryCode": "+64",
+    "iso": "NZ",
+    "capital": "Wellington"
+  },
+  {
+    "label": "Nicaragua",
+    "value": "Nicaragua",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ni.svg",
+    "countryCode": "+505",
+    "iso": "NI",
+    "capital": "Managua"
+  },
+  {
+    "label": "Niger",
+    "value": "Niger",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ne.svg",
+    "countryCode": "+227",
+    "iso": "NE",
+    "capital": "Niamey"
+  },
+  {
+    "label": "Nigeria",
+    "value": "Nigeria",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ng.svg",
+    "countryCode": "+234",
+    "iso": "NG",
+    "capital": "Abuja"
+  },
+  {
+    "label": "North Korea",
+    "value": "North Korea",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kp.svg",
+    "countryCode": "+850",
+    "iso": "KP",
+    "capital": "Pyongyang"
+  },
+  {
+    "label": "North Macedonia",
+    "value": "North Macedonia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mk.svg",
+    "countryCode": "+389",
+    "iso": "MK",
+    "capital": "Skopje"
+  },
+  {
+    "label": "Norway",
+    "value": "Norway",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/no.svg",
+    "countryCode": "+47",
+    "iso": "NO",
+    "capital": "Oslo"
+  },
+  {
+    "label": "Oman",
+    "value": "Oman",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/om.svg",
+    "countryCode": "+968",
+    "iso": "OM",
+    "capital": "Muscat"
+  },
+  {
+    "label": "Pakistan",
+    "value": "Pakistan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pk.svg",
+    "countryCode": "+92",
+    "iso": "PK",
+    "capital": "Islamabad"
+  },
+  {
+    "label": "Palau",
+    "value": "Palau",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pw.svg",
+    "countryCode": "+680",
+    "iso": "PW",
+    "capital": "Ngerulmud"
+  },
+  {
+    "label": "Palestine",
+    "value": "Palestine",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ps.svg",
+    "countryCode": "+970",
+    "iso": "PS",
+    "capital": "Ramallah"
+  },
+  {
+    "label": "Panama",
+    "value": "Panama",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pa.svg",
+    "countryCode": "+507",
+    "iso": "PA",
+    "capital": "Panama City"
+  },
+  {
+    "label": "Papua New Guinea",
+    "value": "Papua New Guinea",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pg.svg",
+    "countryCode": "+675",
+    "iso": "PG",
+    "capital": "Port Moresby"
+  },
+  {
+    "label": "Paraguay",
+    "value": "Paraguay",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/py.svg",
+    "countryCode": "+595",
+    "iso": "PY",
+    "capital": "Asunción"
+  },
+  {
+    "label": "Peru",
+    "value": "Peru",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pe.svg",
+    "countryCode": "+51",
+    "iso": "PE",
+    "capital": "Lima"
+  },
+  {
+    "label": "Philippines",
+    "value": "Philippines",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ph.svg",
+    "countryCode": "+63",
+    "iso": "PH",
+    "capital": "Manila"
+  },
+  {
+    "label": "Poland",
+    "value": "Poland",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pl.svg",
+    "countryCode": "+48",
+    "iso": "PL",
+    "capital": "Warsaw"
+  },
+  {
+    "label": "Portugal",
+    "value": "Portugal",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pt.svg",
+    "countryCode": "+351",
+    "iso": "PT",
+    "capital": "Lisbon"
+  },
+  {
+    "label": "Qatar",
+    "value": "Qatar",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/qa.svg",
+    "countryCode": "+974",
+    "iso": "QA",
+    "capital": "Doha"
+  },
+  {
+    "label": "Romania",
+    "value": "Romania",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ro.svg",
+    "countryCode": "+40",
+    "iso": "RO",
+    "capital": "Bucharest"
+  },
+  {
+    "label": "Russia",
+    "value": "Russia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ru.svg",
+    "countryCode": "+7",
+    "iso": "RU",
+    "capital": "Moscow"
+  },
+  {
+    "label": "Rwanda",
+    "value": "Rwanda",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/rw.svg",
+    "countryCode": "+250",
+    "iso": "RW",
+    "capital": "Kigali"
+  },
+  {
+    "label": "Saint Kitts and Nevis",
+    "value": "Saint Kitts and Nevis",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kn.svg",
+    "countryCode": "+1-869",
+    "iso": "KN",
+    "capital": "Basseterre"
+  },
+  {
+    "label": "Saint Lucia",
+    "value": "Saint Lucia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lc.svg",
+    "countryCode": "+1-758",
+    "iso": "LC",
+    "capital": "Castries"
+  },
+  {
+    "label": "Saint Vincent and the Grenadines",
+    "value": "Saint Vincent and the Grenadines",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/vc.svg",
+    "countryCode": "+1-784",
+    "iso": "VC",
+    "capital": "Kingstown"
+  },
+  {
+    "label": "Samoa",
+    "value": "Samoa",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ws.svg",
+    "countryCode": "+685",
+    "iso": "WS",
+    "capital": "Apia"
+  },
+  {
+    "label": "San Marino",
+    "value": "San Marino",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sm.svg",
+    "countryCode": "+378",
+    "iso": "SM",
+    "capital": "City of San Marino"
+  },
+  {
+    "label": "Sao Tome and Principe",
+    "value": "Sao Tome and Principe",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/st.svg",
+    "countryCode": "+239",
+    "iso": "ST",
+    "capital": "São Tomé"
+  },
+  {
+    "label": "Saudi Arabia",
+    "value": "Saudi Arabia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sa.svg",
+    "countryCode": "+966",
+    "iso": "SA",
+    "capital": "Riyadh"
+  },
+  {
+    "label": "Senegal",
+    "value": "Senegal",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sn.svg",
+    "countryCode": "+221",
+    "iso": "SN",
+    "capital": "Dakar"
+  },
+  {
+    "label": "Serbia",
+    "value": "Serbia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/rs.svg",
+    "countryCode": "+381",
+    "iso": "RS",
+    "capital": "Belgrade"
+  },
+  {
+    "label": "Seychelles",
+    "value": "Seychelles",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sc.svg",
+    "countryCode": "+248",
+    "iso": "SC",
+    "capital": "Victoria"
+  },
+  {
+    "label": "Sierra Leone",
+    "value": "Sierra Leone",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sl.svg",
+    "countryCode": "+232",
+    "iso": "SL",
+    "capital": "Freetown"
+  },
+  {
+    "label": "Singapore",
+    "value": "Singapore",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sg.svg",
+    "countryCode": "+65",
+    "iso": "SG",
+    "capital": "Singapore"
+  },
+  {
+    "label": "Slovakia",
+    "value": "Slovakia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sk.svg",
+    "countryCode": "+421",
+    "iso": "SK",
+    "capital": "Bratislava"
+  },
+  {
+    "label": "Slovenia",
+    "value": "Slovenia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/si.svg",
+    "countryCode": "+386",
+    "iso": "SI",
+    "capital": "Ljubljana"
+  },
+  {
+    "label": "Solomon Islands",
+    "value": "Solomon Islands",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sb.svg",
+    "countryCode": "+677",
+    "iso": "SB",
+    "capital": "Honiara"
+  },
+  {
+    "label": "Somalia",
+    "value": "Somalia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/so.svg",
+    "countryCode": "+252",
+    "iso": "SO",
+    "capital": "Mogadishu"
+  },
+  {
+    "label": "South Africa",
+    "value": "South Africa",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/za.svg",
+    "countryCode": "+27",
+    "iso": "ZA",
+    "capital": "Pretoria"
+  },
+  {
+    "label": "South Korea",
+    "value": "South Korea",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/kr.svg",
+    "countryCode": "+82",
+    "iso": "KR",
+    "capital": "Seoul"
+  },
+  {
+    "label": "South Sudan",
+    "value": "South Sudan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ss.svg",
+    "countryCode": "+211",
+    "iso": "SS",
+    "capital": "Juba"
+  },
+  {
+    "label": "Spain",
+    "value": "Spain",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/es.svg",
+    "countryCode": "+34",
+    "iso": "ES",
+    "capital": "Madrid"
+  },
+  {
+    "label": "Sri Lanka",
+    "value": "Sri Lanka",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/lk.svg",
+    "countryCode": "+94",
+    "iso": "LK",
+    "capital": "Sri Jayawardenepura Kotte"
+  },
+  {
+    "label": "Sudan",
+    "value": "Sudan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sd.svg",
+    "countryCode": "+249",
+    "iso": "SD",
+    "capital": "Khartoum"
+  },
+  {
+    "label": "Suriname",
+    "value": "Suriname",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sr.svg",
+    "countryCode": "+597",
+    "iso": "SR",
+    "capital": "Paramaribo"
+  },
+  {
+    "label": "Sweden",
+    "value": "Sweden",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/se.svg",
+    "countryCode": "+46",
+    "iso": "SE",
+    "capital": "Stockholm"
+  },
+  {
+    "label": "Switzerland",
+    "value": "Switzerland",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ch.svg",
+    "countryCode": "+41",
+    "iso": "CH",
+    "capital": "Bern"
+  },
+  {
+    "label": "Syria",
+    "value": "Syria",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sy.svg",
+    "countryCode": "+963",
+    "iso": "SY",
+    "capital": "Damascus"
+  },
+  {
+    "label": "Tajikistan",
+    "value": "Tajikistan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tj.svg",
+    "countryCode": "+992",
+    "iso": "TJ",
+    "capital": "Dushanbe"
+  },
+  {
+    "label": "Tanzania",
+    "value": "Tanzania",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tz.svg",
+    "countryCode": "+255",
+    "iso": "TZ",
+    "capital": "Dodoma"
+  },
+  {
+    "label": "Thailand",
+    "value": "Thailand",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/th.svg",
+    "countryCode": "+66",
+    "iso": "TH",
+    "capital": "Bangkok"
+  },
+  {
+    "label": "Timor-Leste",
+    "value": "Timor-Leste",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tl.svg",
+    "countryCode": "+670",
+    "iso": "TL",
+    "capital": "Dili"
+  },
+  {
+    "label": "Togo",
+    "value": "Togo",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tg.svg",
+    "countryCode": "+228",
+    "iso": "TG",
+    "capital": "Lomé"
+  },
+  {
+    "label": "Tonga",
+    "value": "Tonga",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/to.svg",
+    "countryCode": "+676",
+    "iso": "TO",
+    "capital": "Nuku'alofa"
+  },
+  {
+    "label": "Trinidad and Tobago",
+    "value": "Trinidad and Tobago",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tt.svg",
+    "countryCode": "+1-868",
+    "iso": "TT",
+    "capital": "Port of Spain"
+  },
+  {
+    "label": "Tunisia",
+    "value": "Tunisia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tn.svg",
+    "countryCode": "+216",
+    "iso": "TN",
+    "capital": "Tunis"
+  },
+  {
+    "label": "Turkey",
+    "value": "Turkey",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tr.svg",
+    "countryCode": "+90",
+    "iso": "TR",
+    "capital": "Ankara"
+  },
+  {
+    "label": "Turkmenistan",
+    "value": "Turkmenistan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tm.svg",
+    "countryCode": "+993",
+    "iso": "TM",
+    "capital": "Ashgabat"
+  },
+  {
+    "label": "Tuvalu",
+    "value": "Tuvalu",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/tv.svg",
+    "countryCode": "+688",
+    "iso": "TV",
+    "capital": "Funafuti"
+  },
+  {
+    "label": "Uganda",
+    "value": "Uganda",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ug.svg",
+    "countryCode": "+256",
+    "iso": "UG",
+    "capital": "Kampala"
+  },
+  {
+    "label": "Ukraine",
+    "value": "Ukraine",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ua.svg",
+    "countryCode": "+380",
+    "iso": "UA",
+    "capital": "Kiev"
+  },
+  {
+    "label": "United Arab Emirates",
+    "value": "United Arab Emirates",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ae.svg",
+    "countryCode": "+971",
+    "iso": "AE",
+    "capital": "Abu Dhabi"
+  },
+  {
+    "label": "United Kingdom",
+    "value": "United Kingdom",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gb.svg",
+    "countryCode": "+44",
+    "iso": "GB",
+    "capital": "London"
+  },
+  {
+    "label": "United States",
+    "value": "United States",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/us.svg",
+    "countryCode": "+1",
+    "iso": "US",
+    "capital": "Washington, D.C."
+  },
+  {
+    "label": "Uruguay",
+    "value": "Uruguay",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/uy.svg",
+    "countryCode": "+598",
+    "iso": "UY",
+    "capital": "Montevideo"
+  },
+  {
+    "label": "Uzbekistan",
+    "value": "Uzbekistan",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/uz.svg",
+    "countryCode": "+998",
+    "iso": "UZ",
+    "capital": "Tashkent"
+  },
+  {
+    "label": "Vanuatu",
+    "value": "Vanuatu",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/vu.svg",
+    "countryCode": "+678",
+    "iso": "VU",
+    "capital": "Port Vila"
+  },
+  {
+    "label": "Vatican City",
+    "value": "Vatican City",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/va.svg",
+    "countryCode": "+379",
+    "iso": "VA",
+    "capital": "Rome"
+  },
+  {
+    "label": "Venezuela",
+    "value": "Venezuela",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ve.svg",
+    "countryCode": "+58",
+    "iso": "VE",
+    "capital": "Caracas"
+  },
+  {
+    "label": "Vietnam",
+    "value": "Vietnam",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/vn.svg",
+    "countryCode": "+84",
+    "iso": "VN",
+    "capital": "Hanoi"
+  },
+  {
+    "label": "Yemen",
+    "value": "Yemen",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/ye.svg",
+    "countryCode": "+967",
+    "iso": "YE",
+    "capital": "Sana'a"
+  },
+  {
+    "label": "Zambia",
+    "value": "Zambia",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/zm.svg",
+    "countryCode": "+260",
+    "iso": "ZM",
+    "capital": "Lusaka"
+  },
+  {
+    "label": "Zimbabwe",
+    "value": "Zimbabwe",
+    "icon": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/zw.svg",
+    "countryCode": "+263",
+    "iso": "ZW",
+    "capital": "Harare"
+  }
+]
