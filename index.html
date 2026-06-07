@@ -59,15 +59,100 @@
 
   <title>OurEasyGame</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Instant paint: no white flash while Flutter/CanvasKit loads -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #081157;
+      overflow: hidden;
+    }
+
+    #oeg-bootstrap-splash {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #081157;
+      background-image: url('splash/background.png');
+      background-size: cover;
+      background-position: center;
+      transition: opacity 0.2s ease-out;
+    }
+
+    #oeg-bootstrap-splash.oeg-bootstrap-splash--hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #oeg-bootstrap-splash img {
+      width: min(200px, 42vw);
+      height: min(200px, 42vw);
+      object-fit: contain;
+    }
+
+    #oeg-bootstrap-splash .oeg-bootstrap-progress {
+      margin-top: 40px;
+      width: min(250px, 60vw);
+      height: 4px;
+      border-radius: 2px;
+      background: rgba(255, 255, 255, 0.12);
+      overflow: hidden;
+    }
+
+    #oeg-bootstrap-splash .oeg-bootstrap-progress-bar {
+      width: 35%;
+      height: 100%;
+      border-radius: 2px;
+      background: #d040c9;
+      animation: oeg-bootstrap-indeterminate 1.2s ease-in-out infinite;
+    }
+
+    @keyframes oeg-bootstrap-indeterminate {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(320%); }
+    }
+  </style>
+  <link rel="preload" href="splash/background.png" as="image">
+  <link rel="preload" href="splash/logo.png" as="image">
 </head>
 <body>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('/flutter_service_worker.js');
-        });
+  <div id="oeg-bootstrap-splash" aria-hidden="true">
+    <img src="splash/logo.png" alt="" width="200" height="200" decoding="async">
+    <div class="oeg-bootstrap-progress" role="progressbar" aria-label="Loading">
+      <div class="oeg-bootstrap-progress-bar"></div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      function removeBootstrapSplash() {
+        var splash = document.getElementById('oeg-bootstrap-splash');
+        if (!splash || splash.dataset.removed === '1') return;
+        splash.dataset.removed = '1';
+        splash.classList.add('oeg-bootstrap-splash--hide');
+        setTimeout(function () {
+          if (splash.parentNode) splash.parentNode.removeChild(splash);
+          document.documentElement.style.overflow = '';
+          document.body.style.overflow = '';
+        }, 220);
       }
-    </script>
+
+      window.addEventListener('flutter-first-frame', removeBootstrapSplash);
+      // Safety net if first-frame event is missed
+      setTimeout(removeBootstrapSplash, 25000);
+    })();
+  </script>
+    <!--
+      Do not register flutter_service_worker.js here — flutter_bootstrap.js already
+      manages the service worker. A second register() causes activation races and
+      the "prepareServiceWorker took more than 4000ms" warning.
+    -->
     <!--
       MeetHour plugin on Web expects a global `MeetHourExternalAPI`.
       When the real MeetHour external script is not loaded (or not ready yet),
