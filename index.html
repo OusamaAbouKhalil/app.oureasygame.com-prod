@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-signin-client_id" content="107453574918-km5t8d3vmhksc24kdc58qrmq8700tec8.apps.googleusercontent.com">
   <meta name="application-name" content="OurEasyGame">
-  <meta name="theme-color" content="#081157">
+  <meta name="theme-color" content="#8A0084">
   <link rel="canonical" href="https://app.oureasygame.com/">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta http-equiv="Content-Language" content="en">
@@ -60,14 +60,19 @@
   <title>OurEasyGame</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- Instant paint: no white flash while Flutter/CanvasKit loads -->
+  <!-- Instant paint: match Flutter splash (gradient + logo) while CanvasKit loads -->
   <style>
+    :root {
+      --oeg-primary: #D040C9;
+      --oeg-primary-dark: #8A0084;
+    }
+
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      background-color: #081157;
+      background: linear-gradient(135deg, var(--oeg-primary-dark) 0%, var(--oeg-primary) 100%);
       overflow: hidden;
     }
 
@@ -79,10 +84,13 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #081157;
-      background-image: url('splash/background.png');
-      background-size: cover;
-      background-position: center;
+      background-color: var(--oeg-primary-dark);
+      background-image:
+        url('splash/background.png'),
+        linear-gradient(135deg, var(--oeg-primary-dark) 0%, var(--oeg-primary) 100%);
+      background-size: cover, cover;
+      background-position: center, center;
+      background-repeat: no-repeat, no-repeat;
       transition: opacity 0.2s ease-out;
     }
 
@@ -91,10 +99,13 @@
       pointer-events: none;
     }
 
-    #oeg-bootstrap-splash img {
+    #oeg-bootstrap-splash .oeg-logo {
+      display: block;
       width: min(200px, 42vw);
       height: min(200px, 42vw);
       object-fit: contain;
+      /* White logo only: drop baked-in black square from source PNG */
+      mix-blend-mode: screen;
     }
 
     #oeg-bootstrap-splash .oeg-bootstrap-progress {
@@ -110,7 +121,7 @@
       width: 35%;
       height: 100%;
       border-radius: 2px;
-      background: #d040c9;
+      background: var(--oeg-primary);
       animation: oeg-bootstrap-indeterminate 1.2s ease-in-out infinite;
     }
 
@@ -119,18 +130,45 @@
       100% { transform: translateX(320%); }
     }
   </style>
-  <link rel="preload" href="splash/background.png" as="image">
   <link rel="preload" href="splash/logo.png" as="image">
+  <link rel="preload" href="splash/background.png" as="image">
 </head>
 <body>
   <div id="oeg-bootstrap-splash" aria-hidden="true">
-    <img src="splash/logo.png" alt="" width="200" height="200" decoding="async">
+    <img
+      id="oeg-bootstrap-logo"
+      class="oeg-logo"
+      src="splash/logo.png"
+      alt="OurEasyGame"
+      width="200"
+      height="200"
+      decoding="async"
+      fetchpriority="high">
     <div class="oeg-bootstrap-progress" role="progressbar" aria-label="Loading">
       <div class="oeg-bootstrap-progress-bar"></div>
     </div>
   </div>
   <script>
     (function () {
+      function assetUrl(path) {
+        try {
+          return new URL(path, document.baseURI).toString();
+        } catch (e) {
+          return path;
+        }
+      }
+
+      var splash = document.getElementById('oeg-bootstrap-splash');
+      var logo = document.getElementById('oeg-bootstrap-logo');
+      if (splash) {
+        splash.style.backgroundImage =
+          "url('" + assetUrl('splash/background.png') + "'), " +
+          "linear-gradient(135deg, #8A0084 0%, #D040C9 100%)";
+      }
+      if (logo) {
+        logo.src = assetUrl('splash/logo.png');
+      }
+
       function removeBootstrapSplash() {
         var splash = document.getElementById('oeg-bootstrap-splash');
         if (!splash || splash.dataset.removed === '1') return;
