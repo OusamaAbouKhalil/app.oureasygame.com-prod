@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background:#8A0084">
+<html lang="en" style="background:#8A0084;background-image:linear-gradient(135deg,#8A0084 0%,#D040C9 100%)">
 <head>
   <meta charset="UTF-8">
   <meta name="theme-color" content="#8A0084">
@@ -16,9 +16,18 @@
       background-image: linear-gradient(135deg, #8A0084 0%, #D040C9 100%);
     }
     flt-glass-pane, flt-scene-host, flutter-view, #flutter_host {
-      background: transparent !important;
+      background-color: #8A0084 !important;
+      background-image: linear-gradient(135deg, #8A0084 0%, #D040C9 100%) !important;
     }
   </style>
+  <script>
+    (function () {
+      try {
+        var preload = new Image();
+        preload.src = new URL('splash/logo.png', document.baseURI).href;
+      } catch (e) {}
+    })();
+  </script>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -61,7 +70,7 @@
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="OurEasyGame">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/Icon-192.png">
   
@@ -115,11 +124,33 @@
       pointer-events: none;
     }
 
-    #oeg-bootstrap-splash .oeg-logo {
-      display: block;
+    #oeg-bootstrap-splash .oeg-logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: min(200px, 42vw);
       height: min(200px, 42vw);
+      flex-shrink: 0;
+      background: transparent;
+    }
+
+    #oeg-bootstrap-splash .oeg-logo {
+      display: block;
+      width: 100%;
+      height: 100%;
       object-fit: contain;
+      background: transparent;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    #oeg-bootstrap-splash .oeg-logo.oeg-logo--loading {
+      opacity: 0;
+    }
+
+    #oeg-bootstrap-splash .oeg-logo.oeg-logo--ready {
+      opacity: 1;
+      transition: opacity 0.15s ease-out;
     }
 
     #oeg-bootstrap-splash .oeg-bootstrap-progress {
@@ -152,15 +183,18 @@
     id="oeg-bootstrap-splash"
     aria-hidden="true"
     style="background-color:#8A0084;background-image:linear-gradient(135deg,#8A0084 0%,#D040C9 100%)">
-    <img
-      id="oeg-bootstrap-logo"
-      class="oeg-logo"
-      src="splash/logo.png"
-      alt="OurEasyGame"
-      width="200"
-      height="200"
-      decoding="async"
-      fetchpriority="high">
+    <div class="oeg-logo-wrap">
+      <img
+        id="oeg-bootstrap-logo"
+        class="oeg-logo oeg-logo--loading"
+        src="splash/logo.png"
+        alt=""
+        width="200"
+        height="200"
+        decoding="sync"
+        loading="eager"
+        fetchpriority="high">
+    </div>
     <div class="oeg-bootstrap-progress" role="progressbar" aria-label="Loading">
       <div class="oeg-bootstrap-progress-bar"></div>
     </div>
@@ -182,9 +216,40 @@
           "url('" + assetUrl('splash/background.png') + "'), " +
           "linear-gradient(135deg, #8A0084 0%, #D040C9 100%)";
       }
-      if (logo) {
-        logo.src = assetUrl('splash/logo.png');
+
+      function wireBootstrapLogo(img) {
+        if (!img) return;
+        var candidates = [
+          'splash/logo.png',
+          'assets/assets/images/new/logo_splash.png',
+        ];
+        var candidateIndex = 0;
+
+        function markReady() {
+          img.classList.remove('oeg-logo--loading');
+          img.classList.add('oeg-logo--ready');
+        }
+
+        function setSrc() {
+          img.src = assetUrl(candidates[candidateIndex]);
+        }
+
+        img.onload = function () {
+          if (img.naturalWidth > 0) markReady();
+        };
+        img.onerror = function () {
+          candidateIndex += 1;
+          if (candidateIndex < candidates.length) {
+            setSrc();
+            return;
+          }
+          markReady();
+        };
+
+        setSrc();
       }
+
+      wireBootstrapLogo(logo);
 
       function removeBootstrapSplash() {
         var splash = document.getElementById('oeg-bootstrap-splash');
@@ -199,8 +264,8 @@
       }
 
       window.addEventListener('flutter-first-frame', function () {
-        // Keep HTML splash until Flutter splash has painted (avoids flash)
-        setTimeout(removeBootstrapSplash, 450);
+        // Keep HTML splash until Flutter splash has painted (avoids flash on mobile web)
+        setTimeout(removeBootstrapSplash, 650);
       });
       // Safety net if first-frame event is missed
       setTimeout(removeBootstrapSplash, 25000);
