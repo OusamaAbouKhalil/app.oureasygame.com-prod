@@ -277,18 +277,18 @@
       the "prepareServiceWorker took more than 4000ms" warning.
     -->
     <!--
-      MeetHour plugin on Web expects a global `MeetHourExternalAPI`.
-      When the real MeetHour external script is not loaded (or not ready yet),
-      the plugin crashes with:
-      "ReferenceError: MeetHourExternalAPI is not defined".
+      MeetHour plugin on Web initializes a singleton on startup and injects:
+        class MeetHourAPI extends MeetHourExternalAPI { ... }
+      If MeetHourExternalAPI is not defined at that moment the page crashes.
 
-      Provide a minimal stub so the app can boot.
-      (Full MeetHour video functionality still requires MeetHour's real script.)
+      We do NOT embed video here — on web the app opens meetings in a new tab
+      via url_launcher (zoom_session_service.dart kIsWeb branch) so the real
+      external_api.min.js is never needed inside the Flutter frame.
+      This stub satisfies the plugin's class-definition at startup only.
     -->
     <script>
       (function () {
         if (typeof window.MeetHourExternalAPI === 'undefined') {
-          // Constructor-like stub to keep plugin registration from crashing.
           window.MeetHourExternalAPI = function MeetHourExternalAPIStub() {};
           window.MeetHourExternalAPI.prototype.init = function () {};
         }
