@@ -276,29 +276,9 @@
       manages the service worker. A second register() causes activation races and
       the "prepareServiceWorker took more than 4000ms" warning.
     -->
-    <!--
-      MeetHour plugin on Web initializes a singleton on startup and injects:
-        class MeetHourAPI extends MeetHourExternalAPI { ... }
-      If MeetHourExternalAPI is not defined at that moment the page crashes.
-
-      We do NOT embed video here — on web the app opens meetings in a new tab
-      via url_launcher (zoom_session_service.dart kIsWeb branch) so the real
-      external_api.min.js is never needed inside the Flutter frame.
-      This stub satisfies the plugin's class-definition at startup only.
-    -->
-    <script>
-      (function () {
-        if (typeof window.MeetHourExternalAPI === 'undefined') {
-          window.MeetHourExternalAPI = function MeetHourExternalAPIStub() {};
-          window.MeetHourExternalAPI.prototype.init = function () {};
-        }
-      })();
-    </script>
-    <!--
-      MeetHour web plugin injects its own scripts.
-      Keeping an additional manual include here causes duplicate execution and crashes with:
-      "Identifier 'MeetHourAPI' has already been declared".
-    -->
+    <!-- MeetHour External API — must load before flutter_bootstrap.js so that
+         MeetHourExternalAPI is defined when the Flutter plugin initialises. -->
+    <script src="https://api.meethour.io/libs/v2.4.6/external_api.min.js?apiKey=23c15b64a351d136362368932d8420292623530e89498d3f77594b8d4740bdff" type="application/javascript"></script>
     <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
