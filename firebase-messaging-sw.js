@@ -8,5 +8,4 @@
 // This prevents the "failed-service-worker-registration" error
 // Firebase Messaging functionality is handled conditionally in the main app
 
-console.log('[firebase-messaging-sw.js] Service worker registered successfully');
 
