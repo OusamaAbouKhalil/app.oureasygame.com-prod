@@ -2,6 +2,11 @@
 <html lang="en" style="background:#8A0084;background-image:linear-gradient(135deg,#8A0084 0%,#D040C9 100%)">
 <head>
   <meta charset="UTF-8">
+  <!-- Warm up connections to the CDNs hit during boot so DNS/TLS overlaps
+       parsing instead of serializing before the CanvasKit wasm + font fetch. -->
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <meta name="theme-color" content="#8A0084">
   <meta name="color-scheme" content="light">
   <!-- Critical: paint splash colors before any other head content parses -->
@@ -276,9 +281,11 @@
       manages the service worker. A second register() causes activation races and
       the "prepareServiceWorker took more than 4000ms" warning.
     -->
-    <!-- MeetHour External API — must load before flutter_bootstrap.js so that
-         MeetHourExternalAPI is defined when the Flutter plugin initialises. -->
-    <script src="https://api.meethour.io/libs/v2.4.6/external_api.min.js?apiKey=23c15b64a351d136362368932d8420292623530e89498d3f77594b8d4740bdff" type="application/javascript"></script>
+    <!-- MeetHour External API — deferred so it never blocks first paint. The
+         SDK global is only consumed when a user opens a live session (the
+         meeting view calls MeetHour.joinMeeting), which is always long after
+         this deferred script has executed. -->
+    <script defer src="https://api.meethour.io/libs/v2.4.6/external_api.min.js?apiKey=23c15b64a351d136362368932d8420292623530e89498d3f77594b8d4740bdff" type="application/javascript"></script>
     <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
